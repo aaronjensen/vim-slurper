@@ -97,6 +97,9 @@ nmap <buffer> <C-l>
 
 imap <buffer> <C-l> <ESC><C-l>
 
+nmap <buffer> <C-s> :!slurp %<cr>
+imap <buffer> <C-s> <C-o><C-s>
+
 function! SlurperFoldText()
   let storytype=substitute(getline(v:foldstart+2),'  ','','')
   let storytitle=substitute(getline(v:foldstart+4),'  ','','')
