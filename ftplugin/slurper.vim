@@ -44,10 +44,12 @@ nmap <buffer> <C-j>
       \<CR>description:
       \<CR>
       \<CR>
+      \<CR>estimate:
+      \<CR><C-D>  
       \<CR>labels:
       \<CR><C-D>  
       \<Esc>
-      \5
+      \7
       \k
       \<S-a>
 

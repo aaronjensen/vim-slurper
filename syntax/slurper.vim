@@ -22,11 +22,14 @@ syn match slurperLabels "^labels:"
 
 syn match slurperRequestedBy "^requested_by:"
 
+syn match slurperRequestedBy "^estimate:"
+
 hi def link slurperDelimiter    Delimiter
 hi def link slurperStoryType    Statement
 hi def link slurperName         Statement
 hi def link slurperDescription  Statement
 hi def link slurperLabels       Statement
 hi def link slurperRequestedBy  Statement
+hi def link slurperEstimate     Statement
 
 let b:current_syntax = "slurper"
