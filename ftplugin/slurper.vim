@@ -89,7 +89,7 @@ nmap <buffer> <leader>sb
       \k
       \<S-a>
 
-nmap <buffer> <leader>ss :!slurp %<cr>
+nmap <buffer> <leader>ss :w<cr>\|:!slurp %<cr>
 
 function! SlurperFoldText()
   let storytype=substitute(getline(v:foldstart+2),'  ','','')
